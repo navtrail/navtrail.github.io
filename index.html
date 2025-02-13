@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NavTrail - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">NavTrail</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="plan-trip.html">Plan Trip</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <a href="login.html" class="button">Login</a>
+        <a href="signup.html" class="button primary">Sign Up</a>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="home-main">
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Plan Your Next Adventure</h1>
+        <p>Discover amazing destinations and create your personalized travel plan.</p>
+        <div class="search-container">
+          <input type="text" placeholder="Search for destinations or activities...">
+          <button class="primary">Search</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-destinations">
+      <h2>Featured Destinations</h2>
+      <div class="destinations-grid">
+        <div class="destination">
+          <img src="placeholder-image.jpg" alt="Paris">
+          <h3>Paris, France</h3>
+          <p>The city of lights awaits! Explore iconic landmarks and indulge in delicious cuisine.</p>
+          <a href="explore.html?city=paris" class="button small">Explore Paris</a>
+        </div>
+
+        <div class="destination">
+          <img src="placeholder-image.jpg" alt="Tokyo">
+          <h3>Tokyo, Japan</h3>
+          <p>Experience the vibrant culture, delicious food, and bustling streets of Tokyo.</p>
+          <a href="explore.html?city=tokyo" class="button small">Explore Tokyo</a>
+        </div>
+
+        <div class="destination">
+          <img src="placeholder-image.jpg" alt="New York">
+          <h3>New York City, USA</h3>
+          <p>The city that never sleeps! From Broadway to Central Park, there's something for everyone.</p>
+          <a href="explore.html?city=newyork" class="button small">Explore New York</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="plan-trip-section">
+      <h2>Start Planning Your Trip</h2>
+      <p>Create a personalized itinerary and discover unforgettable experiences.</p>
+      <a href="plan-trip.html" class="button primary">Plan Your Trip Now</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 NavTrail. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
