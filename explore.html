@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NavTrail - Explore</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">NavTrail</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="plan-trip.html">Plan Trip</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <a href="login.html" class="button">Login</a>
+        <a href="signup.html" class="button primary">Sign Up</a>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="explore-main">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Explore the World with NavTrail</h1>
+        <p>Discover amazing destinations and plan your perfect adventure.</p>
+        <div class="search-container">
+          <input type="text" placeholder="Search destinations or activities...">
+          <button class="primary">Search</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="city-details">
+      <h2>Welcome to <span id="city-name">City Name</span></h2>
+      <div class="city-image">
+        <img id="city-image" src="placeholder-image.jpg" alt="City Image">
+      </div>
+      <p id="city-description">
+        Welcome to the Explore page! Discover amazing destinations and find inspiration for your next trip.
+      </p>
+    </section>
+
+    <section class="popular-spots">
+      <h2>Popular Spots</h2>
+      <div class="spots-grid">
+        <div class="spot">
+          <img src="placeholder-image.jpg" alt="Spot 1">
+          <h3>Spot Name</h3>
+          <p>Details about spot</p>
+          <a href="#" class="button small">Learn More</a>
+        </div>
+        <div class="spot">
+          <img src="placeholder-image.jpg" alt="Spot 2">
+          <h3>Spot Name</h3>
+          <p>Details about spot</p>
+          <a href="#" class="button small">Learn More</a>
+        </div>
+        <div class="spot">
+          <img src="placeholder-image.jpg" alt="Spot 3">
+          <h3>Spot Name</h3>
+          <p>Details about spot</p>
+          <a href="#" class="button small">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="plan-trip-section">
+      <h2>Plan Your Trip Now!</h2>
+      <p>Create a personalized itinerary and discover unforgettable experiences.</p>
+      <a href="plan-trip.html" class="button primary">Plan Your Trip</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 NavTrail. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="explore.js"></script>
+</body>
+
+</html>
